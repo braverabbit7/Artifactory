@@ -1,5 +1,8 @@
-FROM ubuntu
-RUN apt-get update
-RUN apt-get install -y nodejs
-COPY server.js /
-CMD ["/usr/bin/node", "server.js"]
+# Используем базовый образ Nginx
+FROM nginx:latest
+
+# Копируем свой файл index.html в контейнер
+COPY index.html /usr/share/nginx/html/
+
+# Определяем порт, который будет использоваться веб-сервером
+EXPOSE 80
