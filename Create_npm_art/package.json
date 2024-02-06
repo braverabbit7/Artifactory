@@ -1,0 +1,22 @@
+{
+  "name": "sf_hw",
+  "version": "1.0.0",
+  "description": "skill factory home work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/braverabbit7/Artifactory.git"
+  },
+  "author": "Semyon Adaykin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/braverabbit7/Artifactory/issues"
+  },
+  "homepage": "https://github.com/braverabbit7/Artifactory#readme",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
