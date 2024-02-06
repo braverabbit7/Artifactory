@@ -1,0 +1,19 @@
+{
+  "name": "sf_array_hw",
+  "version": "1.0.0",
+  "description": "Home work skill factory ",
+  "main": "arrayUtils.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/braverabbit7/Artifactory.git"
+  },
+  "author": "Semyon Adaikin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/braverabbit7/Artifactory/issues"
+  },
+  "homepage": "https://github.com/braverabbit7/Artifactory#readme"
+}
